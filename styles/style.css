@@ -46,8 +46,8 @@ body {
 .descriptive-text {
     font-size: 4rem;;
     position: absolute;
-    width: 100%;
+    width: 98%;
     top: 0;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem, 0rem;
 }
