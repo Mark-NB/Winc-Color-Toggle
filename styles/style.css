@@ -1,0 +1,53 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: grey;
+}
+
+.color-menu__list {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    transform: translateX(0);
+    transition: 500ms;
+}
+
+.color-menu__list--visible {
+    transform: translateX(-500px);
+}
+
+.color-menu__item {
+    font-size: 2rem;
+    width: 25%;
+    margin: 1rem;
+    border: 0.15rem solid black;
+    border-radius: 5px;
+}
+
+.color-menu__item:nth-child(1) {
+    background-color: grey;
+}
+
+.color-menu__item:nth-child(2) {
+    background-color: red;
+}
+
+.color-menu__item:nth-child(3) {
+    background-color: green;
+}
+
+.color-menu__item:nth-child(4) {
+    background-color: blue;
+}
+
+.color-menu__item:nth-child(5) {
+    background-color: yellow;
+}
+
+.descriptive-text {
+    font-size: 4rem;;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    margin: 1rem;
+}
